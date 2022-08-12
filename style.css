@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 4rem 0 4rem;
+}
+header button{
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+}
+header button:active{
+    border: 2px solid hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+.section-1{
+    text-align: center;
+}
+.section-1 h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 8rem;
+}
+.section-1 p{
+    padding: 2rem 27rem 0 27rem;
+    line-height: 1.6rem;
+}
+.section-1 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.section-1 button:active{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+.section-1 img{
+    margin-top: 5rem;
+}
+.static{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+.static .communities .num{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.static .message .num{
+    font-size: 70px;
+    font-weight: bold;
+}
+.divs{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    font-family: 'Poppins', sans-serif
+}
+.divs p{
+    font-family: 'Open Sans', sans-serif;
+}
+.divs .div-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    background-color: hsl(207, 100%, 98%);
+}
+.divs .div-1 h2{
+    font-size: 35px;
+    padding: 15rem 0 0 6rem;
+}
+.divs .div-1 p{
+    padding: 1rem 8rem 0 6rem;
+    line-height: 1.6rem;
+}
+.divs .div-1 img{
+    width: 80%;
+    padding: 5rem 7rem 5rem 0;
+}
+.divs .div-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 7rem;
+}
+.divs .div-2 h2{
+    font-size: 35px;
+    padding: 15rem 0 0 5rem;
+}
+.divs .div-2 p{
+    padding: 1rem 3rem 0 5rem;
+    line-height: 1.6rem;
+}
+.divs .div-2 img{
+    width: 80%;
+    padding: 5rem 0 0 5rem;
+}
+.divs .div-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7rem;
+    background-color: hsl(207, 100%, 98%);
+}
+.divs .div-3 h2{
+    font-size: 35px;
+    padding: 15rem 0 0 6rem;
+}
+.divs .div-3 p{
+    padding: 1rem 8rem 0 6rem;
+    line-height: 1.6rem;
+}
+.divs .div-3 img{
+    width: 80%;
+    padding: 5rem 7rem 5rem 0;
+}
+.question{
+    text-align: center;
+    margin: 8rem 0 0 0;
+}
+.question{
+    font-size: 25px;
+}
+.question button{
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.question button:active{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+footer .left,
+.right{
+    padding: 8rem 4rem 0 4rem;
+}
+footer .left p{
+    padding: 1rem 12rem 0 0;
+    line-height: 1.6rem;
+}
+footer .left .phone{
+    display: flex;
+    gap: 15px;
+    padding: 1.5rem 0 1rem 0;
+}
+footer .left .email{
+    display: flex;
+    gap: 15px;
+}
+footer .icons img{
+    width: 30px;
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    margin: 4rem 0 3rem 0;
+}
+footer .right p{
+    margin: 1rem 10rem 0 0;
+    line-height: 1.6rem;
+}
+footer .right input{
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+footer .right button{
+    width: 130px;
+    height: 40px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 5px;
+    border: 1px solid hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+footer button:active{
+    background-color: hsl(321, 100%, 78%);
+    cursor: pointer;
+}
